@@ -22,4 +22,4 @@ print(result)
 sentence2 = 'chicken chicken? chicken! chicken'
 result2 = make_censored(sentence2, ['?', 'chicken'])
 print(result2)
-# Вывод: '$#%! chicken? chicken! $#%!'
+# Вывод: '$#%! chicken? chicken! $#%!''

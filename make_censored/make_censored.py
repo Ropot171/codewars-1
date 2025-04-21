@@ -31,3 +31,4 @@ def test_make_censored():
     actual = make_censored(sentence, ['?', '!', '@', 'chicken'])
     expected = '$#%! chicken? chicken! $#%! $#%! $#%! $#%!'
     assert actual == expected
+#test1
