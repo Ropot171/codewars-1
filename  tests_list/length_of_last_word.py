@@ -7,6 +7,8 @@ def length_of_last_word(items):
     else:
         return len(list_items[-1])
 
+
+
 def test_length_of_last_word():
     assert length_of_last_word('') == 0
     assert length_of_last_word(' \t\n') == 0
