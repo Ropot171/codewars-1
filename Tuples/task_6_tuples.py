@@ -13,5 +13,6 @@ def create_unique_tuple_and_return_index(text):
 
     return ' '.join(result)
 
+
 def test_create_unique_tuple_and_return_index():
         assert create_unique_tuple_and_return_index('5 4 -3 2 4 5 10 11') == '0 1 4 5'

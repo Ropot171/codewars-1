@@ -9,6 +9,7 @@ def create_unique_tuple(text):
     return ' '.join(result)
 
 
+
 def test_create_unique_tuple():
     assert create_unique_tuple('Москва Москва Москва Москва') == 'Москва'
     assert create_unique_tuple('8 11 -5 -2 8 11 -5') == '8 11 -5 -2'
